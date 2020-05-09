@@ -13,6 +13,10 @@
 		97173E032466CF2B00191D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97173E012466CF2B00191D88 /* Main.storyboard */; };
 		97173E052466CF3000191D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97173E042466CF3000191D88 /* Assets.xcassets */; };
 		97173E082466CF3000191D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97173E062466CF3000191D88 /* LaunchScreen.storyboard */; };
+		97173E102466D57D00191D88 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97173E0F2466D57D00191D88 /* SecondViewController.swift */; };
+		97173E122466D59C00191D88 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97173E112466D59C00191D88 /* ThirdViewController.swift */; };
+		9738565D2467400200F23F58 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9738565C2467400200F23F58 /* RootViewController.swift */; };
+		9738568324675C8900F23F58 /* Description.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9738568224675C8900F23F58 /* Description.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		97173E042466CF3000191D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97173E072466CF3000191D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97173E092466CF3000191D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97173E0F2466D57D00191D88 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		97173E112466D59C00191D88 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9738565C2467400200F23F58 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		9738568224675C8900F23F58 /* Description.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Description.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		97173DEF2466CF2B00191D88 = {
 			isa = PBXGroup;
 			children = (
+				9738568224675C8900F23F58 /* Description.strings */,
 				97173DFA2466CF2B00191D88 /* LifeCycleVC */,
 				97173DF92466CF2B00191D88 /* Products */,
 			);
@@ -58,8 +67,11 @@
 			children = (
 				97173DFB2466CF2B00191D88 /* AppDelegate.swift */,
 				97173DFD2466CF2B00191D88 /* SceneDelegate.swift */,
-				97173DFF2466CF2B00191D88 /* ViewController.swift */,
 				97173E012466CF2B00191D88 /* Main.storyboard */,
+				97173DFF2466CF2B00191D88 /* ViewController.swift */,
+				97173E0F2466D57D00191D88 /* SecondViewController.swift */,
+				97173E112466D59C00191D88 /* ThirdViewController.swift */,
+				9738565C2467400200F23F58 /* RootViewController.swift */,
 				97173E042466CF3000191D88 /* Assets.xcassets */,
 				97173E062466CF3000191D88 /* LaunchScreen.storyboard */,
 				97173E092466CF3000191D88 /* Info.plist */,
@@ -128,6 +140,7 @@
 				97173E082466CF3000191D88 /* LaunchScreen.storyboard in Resources */,
 				97173E052466CF3000191D88 /* Assets.xcassets in Resources */,
 				97173E032466CF2B00191D88 /* Main.storyboard in Resources */,
+				9738568324675C8900F23F58 /* Description.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97173E102466D57D00191D88 /* SecondViewController.swift in Sources */,
 				97173E002466CF2B00191D88 /* ViewController.swift in Sources */,
+				9738565D2467400200F23F58 /* RootViewController.swift in Sources */,
+				97173E122466D59C00191D88 /* ThirdViewController.swift in Sources */,
 				97173DFC2466CF2B00191D88 /* AppDelegate.swift in Sources */,
 				97173DFE2466CF2B00191D88 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id5190011.LifeCycleVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id5190011.LifeCycleVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,22 @@
+/* 
+  Description.strings
+  LifeCycleVC
+
+  Created by Valeriy Pokatilo on 10.05.2020.
+  Copyright © 2020 Valeriy Pokatilo. All rights reserved.
+*/
+
+Переопределение RootViewController в SceneDelegate
+
+// Вывод названия метода из которого функция вызывается
+extension UIViewController {
+    func printMessage(line: Int = #line, function: String = #function, file: String = #file) {
+        print("------------------------------------------------")
+        print("Title:    \(title ?? "nil title")")
+        print("Function: \(function)")
+        print("Line:     \(line)")
+        //print("File:     \(file)!")
+    }
+}
+или просто print(#function)
+
